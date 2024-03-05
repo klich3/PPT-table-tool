@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.0.0
+title: PPT-Table-Tool
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - email: anton@sychev.xyz
+    given-names: Anton
+    family-names: Sychev
+    affiliation: too
+repository-code: "https://github.com/klich3/PPT-table-tool"
+abstract: >-
+  This is a tool for creating PPT Power Play Tables for Ati Radeon Graphic cards.
+keywords:
+  - python
+  - PPT
+  - Power Play Table
+  - AMD
+  - Radeon
+  - Overclock
+  - Sychev
+license: MIT
+version: 1.0.0
