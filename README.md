@@ -1,25 +1,70 @@
+# PPT-Table-Tool
 
-# PPT-Table-Tool - Tool to Create PPT with Tables from PPTable Files
- 
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![Issues](https://img.shields.io/github/issues/klich3/PPT-table-tool.svg)]( https://github.com/klich3/PPT-table-tool/issues )
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/klich3/PPT-table-tool.svg)](https://GitHub.com/klich3/PPT-table-tool/pull/)
+![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+![Issues](https://img.shields.io/github/issues/klich3/PPT-table-tool.svg)
+![Pull Requests](https://img.shields.io/github/issues-pr/klich3/PPT-table-tool.svg)
 
-This tool allows you to generate PowerPoint (PPT) presentations with tables from plain text or Domain Specific Language (DSL) files. You can easily run the tool by double clicking on the `PPT_script.command` file.
+PPT-Table-Tool is a utility to generate PowerPoint (PPT) presentations with tables from plain text or Domain Specific Language (DSL) files. It provides an easy-to-use interface and supports Windows registry dumps in various formats.
 
-For more information please read this repository here you have full information about this: [Perez987](https://github.com/perez987/6600XT-on-macOS-with-PowerPlayTable-on-SSDT-or-config.plist)
+## Features
 
-# Usage
-* if you already have pptable file run the program `PPT_script.command` drag it into terminal and in `Results` folder get result in text or DSL format.
-* if you have windows registry dump in both plain text and registry format also drag it into terminal and get result in `Results` folder.
+- Convert Windows registry dumps to DSL files.
+- Generate PPT presentations with tables from PPTable files.
+- Cross-platform compatibility (Windows, macOS).
 
-DSL compiles it to AML and copies it to your preferred OpenCore or other bootloader...
+## Usage
+
+1. **Run the Tool:**
+    - Double click on `PPT_script.command`.
+  
+2. **Input:**
+    - Drag and drop a Windows registry dump file (`.txt`, `.reg`) or a binary PPTable file onto the tool's interface.
+
+3. **Output:**
+    - Find the generated files in the `Results` folder.
+    - `result.txt`: The parsed data in a readable format.
+    - `result.dsl`: DSL file generated based on the input data.
 
 ## PPT Technology Overview
-AMD PowerPlay and Performance Management
-AMD PowerPlay technology provides the ability for the graphics card to adjust its performance on demand, allowing it to switch between high-performance and power-saving modes. These automatic operating modes are based on predefined parameters, but also provide the option for user configuration.
+
+AMD PowerPlay and Performance Management:
+- PowerPlay technology enables dynamic performance adjustment of graphics cards.
+- Automatic operating modes switch between high-performance and power-saving modes.
 
 ## Instructions for Use
-* Double click on the file "PPT_script.command" to run the tool.
-* Follow the instructions provided by the user interface to generate presentations with tables from PPTable files.
 
+1. Double click on `PPT_script.command` to launch the tool.
+2. Follow the on-screen instructions to process your input files and generate presentations with tables from PPTable files.
+
+## Notes
+
+- For more information, refer to the original repository [here](https://github.com/perez987/6600XT-on-macOS-with-PowerPlayTable-on-SSDT-or-config.plist).
+
+## Contributing
+
+Contributions are welcome! Create pull requests.
+
+## Citation
+
+If you use this tool in your research or work, please consider citing it as:
+
+- **Title:** PPT-Table-Tool
+- **Authors:** Anton Sychev
+- **Repository:** [GitHub](https://github.com/klich3/PPT-table-tool)
+- **Version:** 1.0.0
+- **License:** MIT
+
+```plaintext
+@software{PPT-Table-Tool,
+  author = {Anton Sychev},
+  title = {{PPT-Table-Tool}},
+  url = {https://github.com/klich3/PPT-table-tool},
+  version = {1.0.0},
+  license = {MIT},
+}
+```
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
