@@ -68,3 +68,7 @@ If you use this tool in your research or work, please consider citing it as:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=klich3/PPT-table-tool&type=Date)](https://star-history.com/#klich3/PPT-table-tool&Date)
